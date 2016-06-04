@@ -2,4 +2,4 @@
 - hosts: localhost
   tasks:
   - name: Start VM based on Cloud init 
-    ovirt: user=admin@internal url=https://rhevm2.coe.hst.sin2.redhat.com instance_name=web-server password=$!ng@p0r3 state=started hostname=eap1 domain=coe.hst.sin2.redhat.com ip=10.69.0.90 netmask=255.255.254.0 rootpw=redhat gateway=10.69.1.254
+    ovirt: user=admin@internal url=https://rhevm2.coe.hst.sin2.redhat.com instance_name=web-server password=$!ng@p0r3 state=started hostname=eap1.coe.hst.sin2.redhat.com ip=10.69.0.90 netmask=255.255.254.0 rootpw=redhat gateway=10.69.1.254
